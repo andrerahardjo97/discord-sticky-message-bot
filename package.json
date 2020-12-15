@@ -13,6 +13,9 @@
   },
   "author": "Andre Rahardjo <20762999+LiuAndre@users.noreply.github.com>",
   "license": "GPLv3",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0"
