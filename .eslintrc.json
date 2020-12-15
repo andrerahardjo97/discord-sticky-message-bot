@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "eslint:recommended",
-    "plugin:node/recommended"
-  ],
+  "extends": "eslint:recommended",
   "env": {
     "node": true,
     "es2020": true
