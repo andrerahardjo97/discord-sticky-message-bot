@@ -41,7 +41,7 @@ If you use NPM, delete `yarn.lock` file.
 
 ## Getting Started
 
-1. Clone or download this repository
+1. Clone or [download](https://github.com/LiuAndre/discord-sticky-message-bot/releases) this repository
 2. Go to the folder where you clone or download this repository
 3. Type `npm install` or `yarn install` depend on what you use
 4. Make `.env` file on the root folder and fill it. ([Template](https://github.com/LiuAndre/discord-sticky-message-bot/blob/c3a512f5852adf86ae67ca2829898e6cbb00186a/.env))
