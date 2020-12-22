@@ -1,7 +1,7 @@
 <div align="center">
-  <br/>
+  <br />
     <h1>Discord Sticky Message Bot</h1>
-  <br/>
+  <br />
   <p>
     <a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License" /></a>
   </p>
@@ -10,22 +10,25 @@
 ## About
 
 This bot gonna send your stickied message after few message.
+<br />
 This bot is inspired by [StickyBot](https://top.gg/bot/628400349979344919).
 
 ## Support
 
 I don't offer support about error in installation. I only offer support for bug and error when the code is running.
+<br />
 I will try to keep the code up to date when there's a major release in libraries that this bot use.
 
 ## Contributing
 
-I only welcome pull requests that fix bug, typo, or broken english.
+I only welcome pull requests that fix bug, typo, or broken english. <br />
 If you want to add new feature to this bot, just fork this repository.
 
 ## Requirements
 
 - [Node.js](https://nodejs.org) v14 or higher
 - NPM (Included in Node.js installer by default) or [Yarn](https://yarnpkg.com)
+<br />
 If you use NPM, delete `yarn.lock` file.
 
 ## Usage
@@ -68,6 +71,7 @@ const client = new Discord.Client({
 ```
 I define the gateway intents because this bot only use message event. There's no use to listen to other event.
 
+
 Remove the code below (line 22-24) if you gonna use this bot on a bot channel.
 The code below make the bot not execute the rest of the code if the sender of the message is bot.
 ```javascript
@@ -75,6 +79,7 @@ if (message.author.bot) {
   return;
 }
 ```
+
 
 The code below only run if the message does not have command prefix.
 ```javascript
@@ -102,10 +107,12 @@ if (message.content.indexOf(process.env.PREFIX) !== 0) {
 }
 ```
 
+
 Split the message by space if the message has command prefix.
 ```javascript
 const args = message.content.slice(1).trim().split(/ +/g);
 ```
+
 
 Get the first element of `args`, because it's the command name
 ```javascript
