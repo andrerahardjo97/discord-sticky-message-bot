@@ -41,8 +41,10 @@ If you use NPM, delete `yarn.lock` file.
 
 ## Getting Started
 
-1. Type `npm install` or `yarn install` depend on what you use
-2. Make `.env` file on the root folder and fill it. ([Template](https://github.com/LiuAndre/discord-sticky-message-bot/blob/c3a512f5852adf86ae67ca2829898e6cbb00186a/.env))
+1. Clone or download this repository
+2. Go to the folder where you clone or download this repository
+3. Type `npm install` or `yarn install` depend on what you use
+4. Make `.env` file on the root folder and fill it. ([Template](https://github.com/LiuAndre/discord-sticky-message-bot/blob/c3a512f5852adf86ae67ca2829898e6cbb00186a/.env))
 ```env
 DISCORD_TOKEN=(fill your bot token here. If you don't know how to get the bot token, check [this guide](https://anidiots.guide/getting-started/getting-started-long-version))
 ALLOWED_ROLES_ID=(allowed roles id, just leave it blank if you don't want to use this)
@@ -50,7 +52,7 @@ MAX_MESSAGE_COUNT=(how many message before the bot send the message again. Minim
 OWNER=(your user id or someone user id (e.g. server owner))
 PREFIX=(Command prefix)
 ```
-3. Type `node index.js` to start the bot
+5. Type `node index.js` to start the bot
 
 You want to host it? Check this [hosting guide](https://anidiots.guide/hosting).
 If you use Heroku, do not commit the `.env` file and fill the `.env` like the guide above said.
