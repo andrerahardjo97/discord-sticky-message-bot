@@ -69,7 +69,7 @@ const client = new Discord.Client({
   },
 });
 ```
-I define the gateway intents because this bot only use message event. There's no use to listen to other event.
+I define the Gateway Intents because this bot only use message event. There's no use to listen to other event.
 <br />
 <br />
 
