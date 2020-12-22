@@ -80,6 +80,7 @@ if (message.author.bot) {
 }
 ```
 <br />
+<br />
 
 The code below only run if the message does not have command prefix.
 ```javascript
