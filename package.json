@@ -26,5 +26,5 @@
   "engines": {
     "node": "15.x"
   },
-  "private": true
+  "private": false
 }
