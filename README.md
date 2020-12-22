@@ -28,7 +28,7 @@ If you want to add new feature to this bot, just fork this repository.
 
 - [Node.js](https://nodejs.org) v14 or higher
 - NPM (Included in Node.js installer by default) or [Yarn](https://yarnpkg.com)
-<br />
+
 If you use NPM, delete `yarn.lock` file.
 
 ## Usage
