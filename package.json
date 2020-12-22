@@ -12,7 +12,7 @@
     "url": "https://github.com/LiuAndre/discord-sticky-message-bot"
   },
   "author": "Andre Rahardjo <20762999+LiuAndre@users.noreply.github.com>",
-  "license": "GPLv3",
+  "license": "GPL-3.0-only",
   "scripts": {
     "start": "node index.js"
   },
