@@ -71,6 +71,7 @@ const client = new Discord.Client({
 ```
 I define the gateway intents because this bot only use message event. There's no use to listen to other event.
 <br />
+<br />
 
 Remove the code below (line 22-24) if you gonna use this bot on a bot channel.
 The code below make the bot not execute the rest of the code if the sender of the message is bot.
@@ -79,7 +80,6 @@ if (message.author.bot) {
   return;
 }
 ```
-<br />
 <br />
 
 The code below only run if the message does not have command prefix.
