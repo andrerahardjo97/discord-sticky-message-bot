@@ -42,7 +42,7 @@ If you use NPM, delete `yarn.lock` file.
 ## Getting Started
 
 1. Type `npm install` or `yarn install` depend on what you use
-2. Fill the `.env` file
+2. Make `.env` file on the root folder and fill it. ([Template](https://github.com/LiuAndre/discord-sticky-message-bot/blob/c3a512f5852adf86ae67ca2829898e6cbb00186a/.env))
 ```env
 DISCORD_TOKEN=(fill your bot token here. If you don't know how to get the bot token, check [this guide](https://anidiots.guide/getting-started/getting-started-long-version))
 ALLOWED_ROLES_ID=(allowed roles id, just leave it blank if you don't want to use this)
@@ -70,7 +70,7 @@ const client = new Discord.Client({
 });
 ```
 I define the gateway intents because this bot only use message event. There's no use to listen to other event.
-
+<br />
 
 Remove the code below (line 22-24) if you gonna use this bot on a bot channel.
 The code below make the bot not execute the rest of the code if the sender of the message is bot.
@@ -79,7 +79,7 @@ if (message.author.bot) {
   return;
 }
 ```
-
+<br />
 
 The code below only run if the message does not have command prefix.
 ```javascript
@@ -106,13 +106,13 @@ if (message.content.indexOf(process.env.PREFIX) !== 0) {
   return;
 }
 ```
-
+<br />
 
 Split the message by space if the message has command prefix.
 ```javascript
 const args = message.content.slice(1).trim().split(/ +/g);
 ```
-
+<br />
 
 Get the first element of `args`, because it's the command name
 ```javascript
