@@ -29,15 +29,7 @@ If you want to add new feature to this bot, just fork this repository.
 - [Node.js](https://nodejs.org) v14 or higher
 - NPM (Included in Node.js installer by default) or [Yarn](https://yarnpkg.com)
 
-If you use NPM, delete `yarn.lock` file.
-
-## Usage
-
-```
--stick [message that you want to stick]
-
--unstick
-```
+**If you use NPM**, delete `yarn.lock` file.
 
 ## Getting Started
 
@@ -46,7 +38,7 @@ If you use NPM, delete `yarn.lock` file.
 3. Type `npm install` or `yarn install` depend on what you use
 4. Make `.env` file on the root folder and fill it. ([Template](https://github.com/LiuAndre/discord-sticky-message-bot/blob/c3a512f5852adf86ae67ca2829898e6cbb00186a/.env))
 ```env
-DISCORD_TOKEN=(fill your bot token here. If you don't know how to get the bot token, check [this guide](https://anidiots.guide/getting-started/getting-started-long-version))
+DISCORD_TOKEN=(fill your bot token here)
 ALLOWED_ROLES_ID=(allowed roles id, just leave it blank if you don't want to use this)
 MAX_MESSAGE_COUNT=(how many message before the bot send the message again. Minimum is 5 if you want to comply with Discord ToS)
 OWNER=(your user id or someone user id (e.g. server owner))
@@ -54,9 +46,21 @@ PREFIX=(Command prefix)
 ```
 5. Type `node index.js` to start the bot
 
+If you don't know how to get the bot token, check [this guide](https://anidiots.guide/getting-started/getting-started-long-version)
+<br />
 You want to host it? Check this [hosting guide](https://anidiots.guide/hosting).
-If you use Heroku, do not commit the `.env` file and fill the `.env` like the guide above said.
-After you deploy it on Heroku, if it's your first time, don't forget to turn on all the process type. I already include the `Procfile` file for Heroku in this repository.
+<br />
+If you use Heroku, **do not** commit the `.env` file and fill the `.env` like the guide above said.
+<br />
+After you deploy it on Heroku, if it's your first time, **don't forget** to turn on all the process type. I already include the `Procfile` file for Heroku in this repository.
+
+## Usage
+
+```
+-stick <message that you want to stick>
+
+-unstick
+```
 
 ## Code Explanation
 
