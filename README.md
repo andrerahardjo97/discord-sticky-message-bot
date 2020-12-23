@@ -46,7 +46,7 @@ PREFIX=(Command prefix)
 ```
 5. Type `node index.js` to start the bot
 
-If you don't know how to get the bot token, check [this guide](https://anidiots.guide/getting-started/getting-started-long-version)
+If you don't know how to get the bot token, check [this guide](https://anidiots.guide/getting-started/getting-started-long-version).
 <br />
 You want to host it? Check this [hosting guide](https://anidiots.guide/hosting).
 <br />
