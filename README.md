@@ -36,13 +36,13 @@ If you want to add new feature to this bot, just fork this repository.
 1. Clone or [download](https://github.com/LiuAndre/discord-sticky-message-bot/releases) this repository
 2. Go to the folder where you clone or download this repository
 3. Type `npm install` or `yarn install` depend on what you use
-4. Make `.env` file on the root folder and fill it. ([Template](https://github.com/LiuAndre/discord-sticky-message-bot/blob/c3a512f5852adf86ae67ca2829898e6cbb00186a/.env))
+4. Rename `.env.example` to `.env` and fill that file. Below is the explanation.
 ```env
 DISCORD_TOKEN=(fill your bot token here)
 ALLOWED_ROLES_ID=(allowed roles id, just leave it blank if you don't want to use this)
 MAX_MESSAGE_COUNT=(how many message before the bot send the message again. Minimum is 5 if you want to comply with Discord ToS)
 OWNER=(your user id or someone user id (e.g. server owner))
-PREFIX=(Command prefix)
+PREFIX=(command prefix)
 ```
 5. Type `node index.js` to start the bot
 
@@ -99,7 +99,7 @@ if (message.content.indexOf(process.env.PREFIX) !== 0) {
       // Increment message counter.
       messageCount++;
       // Check if it's already hit the maximum message count that is defined.
-      if (messageCount === process.env.MAX_MESSAGE_COUNT) {
+      if (messageCount === maxMessageCount) {
         // Delete last sticky message.
         await lastStickyMessage.delete();
         // Send new sticky message.
