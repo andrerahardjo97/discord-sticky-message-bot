@@ -9,6 +9,7 @@ const client = new Discord.Client({
   },
 });
 
+const maxMessageCount = parseInt(process.env.MAX_MESSAGE_COUNT);
 let lastStickyMessage = "";
 let messageCount = 0;
 let stickyMessageChannel = "";
@@ -27,7 +28,7 @@ client.on("message", async function (message) {
     if (stickyMessageContent !== "") {
       if (message.channel.id === stickyMessageChannel) {
         messageCount++;
-        if (messageCount === process.env.MAX_MESSAGE_COUNT) {
+        if (messageCount === maxMessageCount) {
           await lastStickyMessage.delete();
           lastStickyMessage = await message.channel.send(stickyMessageContent);
           messageCount = 0;
