@@ -2,16 +2,16 @@
   "name": "discord-sticky-message-bot",
   "version": "1.0.0",
   "description": "Discord Sticky Message Bot",
-  "homepage": "https://github.com/LiuAndre/discord-sticky-message-bot#readme",
+  "homepage": "https://github.com/andrerahardjo97/discord-sticky-message-bot#readme",
   "bugs": {
-    "url": "https://github.com/LiuAndre/discord-sticky-message-bot/issues"
+    "url": "https://github.com/andrerahardjo97/discord-sticky-message-bot/issues"
   },
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LiuAndre/discord-sticky-message-bot"
+    "url": "https://github.com/andrerahardjo97/discord-sticky-message-bot"
   },
-  "author": "Andre Rahardjo <20762999+LiuAndre@users.noreply.github.com>",
+  "author": "Andre Rahardjo <20762999+andrerahardjo97@users.noreply.github.com>",
   "license": "GPL-3.0-only",
   "scripts": {
     "start": "node index.js"
