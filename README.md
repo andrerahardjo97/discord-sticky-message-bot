@@ -2,6 +2,7 @@
   <br />
     <h1>Discord Sticky Message Bot</h1>
   <br />
+  ![Bot Preview](https://i.imgur.com/8oNgNDV.gif)
   <p>
     <a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License" /></a>
   </p>
@@ -79,7 +80,7 @@ I define the Gateway Intents because this bot only use message event. There's no
 <br />
 <br />
 
-Remove the code below (line 22-24) if you gonna use this bot on a bot channel.
+Remove the code below ([line 23-25](https://github.com/andrerahardjo97/discord-sticky-message-bot/blob/74eb73ff2d00943aad5fefd33015600370b8479f/index.js#L23-L25)) if you gonna use this bot on a bot channel.
 The code below make the bot not execute the rest of the code if the sender of the message is bot.
 ```javascript
 if (message.author.bot) {
