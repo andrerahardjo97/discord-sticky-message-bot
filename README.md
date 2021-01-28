@@ -2,7 +2,7 @@
   <br />
     <h1>Discord Sticky Message Bot</h1>
   <br />
-  ![Bot Preview](https://i.imgur.com/8oNgNDV.gif)
+  <img src="https://i.imgur.com/8oNgNDV.gif" alt="Bot preview" />
   <p>
     <a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License" /></a>
   </p>
