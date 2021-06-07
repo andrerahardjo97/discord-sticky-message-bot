@@ -21,7 +21,7 @@
     "dotenv": "^10.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.27.0"
+    "eslint": "^7.28.0"
   },
   "engines": {
     "node": "15.x"
