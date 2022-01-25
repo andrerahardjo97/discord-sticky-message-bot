@@ -222,10 +222,10 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-dotenv@^14.3.0:
-  version "14.3.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-14.3.0.tgz#40f537fe90e229d35361c66cf432903e0db49001"
-  integrity sha512-PCTcOQSXVo9FI1dB7AichJXMEvmiGCq0gnCpjfDUc8505uR+2MeLXWe+Ue4PN5UXa2isHSa78sr7L59fk+2mnQ==
+dotenv@^14.3.1:
+  version "14.3.1"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-14.3.1.tgz#c82cfa57792b6081eb82de19fabc59d0fe2ad4d2"
+  integrity sha512-qMpNS0qiX1sFnBTn9zcXxL+IPcnb3WJni85/R60vSAE4V0TBWj9pyrq0dOoK87B4MdYkAUWU8WL4W/4OzYn9LQ==
 
 escape-string-regexp@^4.0.0:
   version "4.0.0"
