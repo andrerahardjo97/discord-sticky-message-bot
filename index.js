@@ -20,11 +20,7 @@ client.once("ready", async function () {
 });
 
 client.on("message", async function (message) {
-  if (message.author.bot) {
-    return;
-  }
-
-  if (message.content.indexOf(process.env.PREFIX) !== 0) {
+  if (message.content.indexOf(process.env.PREFIX) !== 0 && message.author.id !== client.user.id) {
     if (stickyMessageContent !== "") {
       if (message.channel.id === stickyMessageChannel) {
         messageCount++;
